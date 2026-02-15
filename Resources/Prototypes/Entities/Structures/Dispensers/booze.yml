@@ -102,7 +102,7 @@
 - type: entity
   id: BoozeDispenserEmpty
   name: booze dispenser
-  suffix: Empty
+#  suffix: Empty # Orion-Edit: Removed
   description: A booze dispenser with a single slot for a container to be filled.
   parent: ReagentDispenserBase
   categories: [ HideSpawnMenu ] # Orion-Edit: Migration
@@ -129,7 +129,7 @@
     stealGroup: BoozeDispenser
 
 - type: entity
-  id: BoozeDispenserEmpty
+  id: BoozeDispenser
   name: booze dispenser
 #  suffix: Filled # Orion-Edit: Removed
   description: A booze dispenser with a single slot for a container to be filled.

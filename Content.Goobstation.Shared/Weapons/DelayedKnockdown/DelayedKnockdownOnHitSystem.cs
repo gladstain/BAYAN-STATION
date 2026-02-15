@@ -11,7 +11,7 @@
 
 using Content.Goobstation.Common.Weapons.DelayedKnockdown;
 using Content.Goobstation.Shared.Clothing;
-using Content.Server.Heretic.EntitySystems.PathSpecific.Content.Shared.Heretic.EntitySystems.PathSpecific;
+using Content.Server.Heretic.EntitySystems.PathSpecific;
 using Content.Shared._Goobstation.Heretic.Components;
 using Content.Shared._Shitcode.Weapons.Misc;
 using Content.Shared.Armor;

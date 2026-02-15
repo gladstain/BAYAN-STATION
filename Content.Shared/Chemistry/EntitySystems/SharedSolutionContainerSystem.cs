@@ -155,15 +155,15 @@ public partial record struct SolutionAccessAttemptEvent(string SolutionName)
 [UsedImplicitly]
 public abstract partial class SharedSolutionContainerSystem : EntitySystem
 {
-    [Dependency] protected readonly IPrototypeManager PrototypeManager = default!;
-    [Dependency] protected readonly ChemicalReactionSystem ChemicalReactionSystem = default!;
-    [Dependency] protected readonly ExamineSystemShared ExamineSystem = default!;
-    [Dependency] protected readonly OpenableSystem Openable = default!;
-    [Dependency] protected readonly SharedAppearanceSystem AppearanceSystem = default!;
-    [Dependency] protected readonly SharedHandsSystem Hands = default!;
-    [Dependency] protected readonly SharedContainerSystem ContainerSystem = default!;
-    [Dependency] protected readonly MetaDataSystem MetaDataSys = default!;
-    [Dependency] protected readonly INetManager NetManager = default!;
+    [Robust.Shared.IoC.Dependency] protected readonly IPrototypeManager PrototypeManager = default!;
+    [Robust.Shared.IoC.Dependency] protected readonly ChemicalReactionSystem ChemicalReactionSystem = default!;
+    [Robust.Shared.IoC.Dependency] protected readonly ExamineSystemShared ExamineSystem = default!;
+    [Robust.Shared.IoC.Dependency] protected readonly OpenableSystem Openable = default!;
+    [Robust.Shared.IoC.Dependency] protected readonly SharedAppearanceSystem AppearanceSystem = default!;
+    [Robust.Shared.IoC.Dependency] protected readonly SharedHandsSystem Hands = default!;
+    [Robust.Shared.IoC.Dependency] protected readonly SharedContainerSystem ContainerSystem = default!;
+    [Robust.Shared.IoC.Dependency] protected readonly MetaDataSystem MetaDataSys = default!;
+    [Robust.Shared.IoC.Dependency] protected readonly INetManager NetManager = default!;
 
     public override void Initialize()
     {

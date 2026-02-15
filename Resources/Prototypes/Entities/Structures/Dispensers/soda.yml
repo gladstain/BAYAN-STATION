@@ -105,7 +105,7 @@
   id: SodaDispenserEmpty
   name: soda dispenser
   description: A beverage dispenser with a selection of soda and several other common beverages. Has a single fill slot for containers.
-  suffix: Empty
+#  suffix: Empty # Orion-Edit: Removed
   categories: [ HideSpawnMenu ] # Orion-Edit: Migration
   components:
   - type: Rotatable
@@ -129,7 +129,7 @@
 
 - type: entity
   parent: [ ReagentDispenserBase, SodaDispenserEmpty ] # Orion-Edit
-  id: SodaDispenserEmpty
+  id: SodaDispenser
   name: soda dispenser
   description: A beverage dispenser with a selection of soda and several other common beverages. Has a single fill slot for containers.
 #  suffix: Filled # Orion-Edit: Removed

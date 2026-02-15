@@ -22,6 +22,7 @@ using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Timing;
 using Content.Server.Atmos.EntitySystems;
+using Content.Server.Atmos.Piping.Components;
 
 namespace Content.Server.Atmos.Consoles;
 
