@@ -121,6 +121,12 @@
     noRot: false
   - type: Machine
     board: BoozeDispenserMachineCircuitboard
+  - type: ContainerContainer # Orion
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      energyBeakerSlot: !type:ContainerSlot
+      storagebase: !type:Container
   - type: GuideHelp
     guides:
     - Bartender
@@ -163,12 +169,6 @@
       Ethanol: 12
       Iron: 10
       AtomicBomb: 20
-  - type: ContainerContainer
-    containers:
-      machine_board: !type:Container
-      machine_parts: !type:Container
-      energyBeakerSlot: !type:ContainerSlot
-      storagebase: !type:Container
   - type: ActivatableUI
     key: enum.EnergyReagentDispenserUiKey.Key
   - type: UserInterface

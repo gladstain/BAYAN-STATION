@@ -122,6 +122,12 @@
     noRot: false
   - type: Machine
     board: SodaDispenserMachineCircuitboard
+  - type: ContainerContainer # Orion
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      energyBeakerSlot: !type:ContainerSlot
+      storagebase: !type:Container
   - type: GuideHelp
     guides:
     - Bartender
@@ -174,12 +180,6 @@
       WhiskeyCola: 8
       MindbreakerToxin: 18
       Tirizene: 18
-  - type: ContainerContainer
-    containers:
-      machine_board: !type:Container
-      machine_parts: !type:Container
-      energyBeakerSlot: !type:ContainerSlot
-      storagebase: !type:Container
   - type: ActivatableUI
     key: enum.EnergyReagentDispenserUiKey.Key
   - type: UserInterface
