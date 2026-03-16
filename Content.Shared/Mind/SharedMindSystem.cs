@@ -236,6 +236,24 @@ public abstract partial class SharedMindSystem : EntitySystem
     }
     // goob end
 
+    // Orion-Start
+    public bool ClearMindContainerMind(EntityUid uid, EntityUid? expectedMind = null, MindContainerComponent? mind = null)
+    {
+        if (!Resolve(uid, ref mind, false))
+            return false;
+
+        if (mind.Mind == null)
+            return false;
+
+        if (expectedMind != null && mind.Mind != expectedMind)
+            return false;
+
+        mind.Mind = null;
+        Dirty(uid, mind);
+        return true;
+    }
+    // Orion-End
+
     private void OnExamined(EntityUid uid, MindContainerComponent mindContainer, ExaminedEvent args)
     {
         if (!mindContainer.ShowExamineInfo || !args.IsInDetailsRange)
