@@ -1,3 +1,4 @@
+using System.Linq;
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Prototypes;
 
@@ -45,9 +46,15 @@ public sealed partial class ResearchSystem
         if (unlocked == 0)
             return 0;
 
+        var previouslyUnlockedRecipes = database.UnlockedRecipes.ToHashSet();
         RecalculateTechnologyState(uid, database);
         UpdateTechnologyCards(uid, database);
         Dirty(uid, database);
+
+        var newlyUnlockedRecipes = database.UnlockedRecipes.Except(previouslyUnlockedRecipes).ToList();
+        var ev = new TechnologyDatabaseModifiedEvent(newlyUnlockedRecipes);
+        RaiseLocalEvent(uid, ref ev);
+
         LogNetworkEvent(uid,
             "admin",
             Loc.GetString("research-netlog-admin-unlocked-all-technologies", ("user", Loc.GetString("research-netlog-user-admin"))),
