@@ -1,0 +1,24 @@
+- type: entity
+  name: манго
+  description: МАНГО! МАНГО! МАНГО, МАНГО, манго, манго манго, манго...
+  parent: FoodBase
+  id: mango
+  components:
+  - type: FlavorProfile
+    flavors:
+      - apple
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+        - ReagentId: Desoxyephedrine
+          Quantity: 5
+  - type: Sprite
+    sprite: _Vice/Objects/Food/Mango.rsi
+    state: icon
+  - type: Tag
+    tags:
+    - Fruit

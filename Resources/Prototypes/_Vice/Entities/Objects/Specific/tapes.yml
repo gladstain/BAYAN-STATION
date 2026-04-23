@@ -11,7 +11,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _Bayan/Objects/Devices/tapes.rsi
+    sprite: _Vice/Objects/Devices/tapes.rsi
   - type: Tag
     tags:
     - MusicTape
@@ -25,7 +25,7 @@
   - type: Sprite
     state: tape2
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/magnitofon.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/magnitofon.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -36,7 +36,7 @@
   - type: Sprite
     state: tape1
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/absoluteterr.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/absoluteterr.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -47,7 +47,7 @@
   - type: Sprite
     state: tape7
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/bolni.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/bolni.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -58,7 +58,7 @@
   - type: Sprite
     state: tape23
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/caramel.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/caramel.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -69,7 +69,7 @@
   - type: Sprite
     state: tape1
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/darkisthenight.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/darkisthenight.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -80,7 +80,7 @@
   - type: Sprite
     state: tape35
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/doroga.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/doroga.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -91,7 +91,7 @@
   - type: Sprite
     state: tape16
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/everlong.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/everlong.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -102,7 +102,7 @@
   - type: Sprite
     state: tape22
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/giperborei.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/giperborei.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -113,7 +113,7 @@
   - type: Sprite
     state: tape12
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/heartbit.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/heartbit.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -124,7 +124,7 @@
   - type: Sprite
     state: tape29
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/Joji_Tick_Tock.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/Joji_Tick_Tock.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -135,7 +135,7 @@
   - type: Sprite
     state: tape7
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/MDSHW.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/MDSHW.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -146,7 +146,7 @@
   - type: Sprite
     state: tape20
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/nasever.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/nasever.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -157,7 +157,7 @@
   - type: Sprite
     state: tape24
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/stavnazero.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/stavnazero.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -168,7 +168,7 @@
   - type: Sprite
     state: tape10
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/nazminaknopku.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/nazminaknopku.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -179,7 +179,7 @@
   - type: Sprite
     state: tape26
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/patroni.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/patroni.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -190,7 +190,7 @@
   - type: Sprite
     state: tape17
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/poplanu.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/poplanu.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -201,7 +201,7 @@
   - type: Sprite
     state: tape21
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/riptide.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/riptide.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -212,7 +212,7 @@
   - type: Sprite
     state: tape28
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/riptide.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/riptide.ogg"
 
 # КИШ - Король И Шут
 
@@ -225,7 +225,7 @@
   - type: Sprite
     state: tape32
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/anarkhist.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/anarkhist.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -236,7 +236,7 @@
   - type: Sprite
     state: tape34
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/durak.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/durak.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -247,7 +247,7 @@
   - type: Sprite
     state: tape11
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/kukla.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/kukla.ogg"
     
 - type: entity
   parent: BaseMusicTape
@@ -258,7 +258,7 @@
   - type: Sprite
     state: tape13
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/lesnik.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/lesnik.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -269,7 +269,7 @@
   - type: Sprite
     state: tape42
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/myaso.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/myaso.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -280,7 +280,7 @@
   - type: Sprite
     state: tape40
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/vedmaiosel.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/vedmaiosel.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -291,7 +291,7 @@
   - type: Sprite
     state: tape41
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/rom.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/rom.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -302,4 +302,15 @@
   - type: Sprite
     state: tape39
   - type: MusicTape
-    sound: "/Audio/_Bayan/TapePlayer/Tracks/khozyainlesa.ogg"
+    sound: "/Audio/_Vice/TapePlayer/Tracks/khozyainlesa.ogg"
+
+- type: entity
+  parent: BaseMusicTape
+  id: MusicTape27
+  name: Кассета (The LetovHood)
+  description:
+  components:
+  - type: Sprite
+    state: tape21
+  - type: MusicTape
+    sound: "/Audio/_Vice/TapePlayer/Tracks/LetovHood.ogg"

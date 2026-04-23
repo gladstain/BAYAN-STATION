@@ -79,13 +79,17 @@
 - type: soundCollection
   id: NukeMusic
   files:
-    - /Audio/StationEvents/running_out.ogg
-    - /Audio/StationEvents/countdown.ogg
-    - /Audio/StationEvents/sound_station_14.ogg
+    #- /Audio/StationEvents/running_out.ogg
+    #- /Audio/StationEvents/countdown.ogg
+    #- /Audio/StationEvents/sound_station_14.ogg
 
     # Goobstation
-    - /Audio/StationEvents/blatantly_nuclear.ogg
-    - /Audio/StationEvents/last_call.ogg
-    - /Audio/StationEvents/tansume.ogg
-    - /Audio/StationEvents/sponsored-by-syndicate.ogg
-    - /Audio/StationEvents/EphedrineOverdose.ogg
+    #- /Audio/StationEvents/blatantly_nuclear.ogg
+    #- /Audio/StationEvents/last_call.ogg
+    #- /Audio/StationEvents/tansume.ogg
+    #- /Audio/StationEvents/sponsored-by-syndicate.ogg
+    #- /Audio/StationEvents/EphedrineOverdose.ogg
+
+    #Vice
+    - /Audio/StationEvents/_Vice/Cheshyr_Madness-5.ogg
+    - /Audio/StationEvents/_Vice/Madness-8

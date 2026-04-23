@@ -4,7 +4,7 @@
   id: gooseduck-ghost
   restrictions:
   - !type:CkeyRestriction
-    ckey: [ PuroSlavKing ]
+    ckey: [ gooseduck ]
   entity: MobObserver-gooseduck
 
 - type: entity
@@ -14,5 +14,5 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Bayan/Ghosts/gooseduck-ghost.rsi
+    sprite: _Vice/Ghosts/gooseduck-ghost.rsi
     color: "#ffffffe6" # 0.9 alpha

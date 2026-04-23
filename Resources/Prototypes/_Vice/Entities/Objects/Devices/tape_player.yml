@@ -6,7 +6,7 @@
   components:
   - type: Appearance
   - type: Sprite
-    sprite: _Bayan/Objects/Devices/tape_player.rsi
+    sprite: _Vice/Objects/Devices/tape_player.rsi
     state: icon
   - type: TapePlayer
     volume: -4
@@ -18,8 +18,8 @@
     slots:
       tape:
         name: Tape slot
-        insertSound: /Audio/_Bayan/TapePlayer/insert_tape.ogg
-        ejectSound: /Audio/_Bayan/TapePlayer/eject_tape.ogg
+        insertSound: /Audio/_Vice/TapePlayer/insert_tape.ogg
+        ejectSound: /Audio/_Vice/TapePlayer/eject_tape.ogg
         whitelist:
           tags:
           - MusicTape
@@ -27,4 +27,4 @@
     containers:
       tape: !type:ContainerSlot
   - type: EmitSoundOnUse
-    sound: /Audio/_Bayan/TapePlayer/switch.ogg
+    sound: /Audio/_Vice/TapePlayer/switch.ogg

@@ -6,7 +6,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _Bayan/Mobs/Aliens/mollusk_bot.rsi
+    sprite: _Vice/Mobs/Aliens/mollusk_bot.rsi
     layers:
       - state: icon
         map: ["enum.DamageStateVisualLayers.Base"]
@@ -15,7 +15,7 @@
     baseSprintSpeed: 0.8
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg #/Audio/_Bayan/Ambience/Objects/robot_hum.ogg
+      path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg #/Audio/_Vice/Ambience/Objects/robot_hum.ogg
     angle: 0
     animation: WeaponArcClaw
     damage:
