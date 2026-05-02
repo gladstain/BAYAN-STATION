@@ -1,0 +1,16 @@
+- type: vendingMachineInventory
+  id: DildoeInventory
+  startingInventory:
+    LPPDildoAvian: 99
+    LPPDildoCanine: 99
+    LPPDildoDouble: 99
+    LPPDildoDragon: 99
+    LPPDildoEquine: 99
+    LPPDildoHuman: 99
+    LPPDildoTentacle: 99
+    BaseWhip: 3
+  contrabandInventory:
+    TheWhip: 3
+    LongWhip: 3
+  emaggedInventory:
+    TippedWhip: 1

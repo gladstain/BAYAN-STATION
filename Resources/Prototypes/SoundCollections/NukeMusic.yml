@@ -91,5 +91,5 @@
     #- /Audio/StationEvents/EphedrineOverdose.ogg
 
     #Vice
-    - /Audio/StationEvents/_Vice/Cheshyr_Madness-5.ogg
-    - /Audio/StationEvents/_Vice/Madness-8
+    - /Audio/_Vice/StationEvents/Cheshyr_Madness-5.ogg
+    - /Audio/_Vice/StationEvents/Madness-8

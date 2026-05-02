@@ -1,0 +1,93 @@
+- type: entity
+  name: Плётка
+  parent: [BaseItem, BaseMinorContraband]
+  id: BaseWhip
+  description: Небольшая плётка.
+  components:
+  - type: Tag
+    tags:
+    - Stunbaton
+  - type: Sprite
+    sprite: _Vice/Objects/Weapons/Melee/smallwhip.rsi
+    state: icon
+  - type: MeleeWeapon # goob edited
+    angle: 0
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Heat: 0.1
+  - type: StaminaDamageOnHit # goob edited
+    damage: 5
+    overtime: 25
+    lightAttackDamageMultiplier: 4
+    lightAttackOvertimeDamageMultiplier: 0
+    sound: /Audio/_Vice/Items/Weapons/whip.ogg
+  - type: DelayedKnockdownOnHit
+    useDelay: stunbaton
+  - type: UseDelayBlockMelee
+    delays:
+    - stunbaton
+  - type: LandAtCursor
+  - type: UseDelay
+    delays:
+      stunbaton:
+        length: 1.5
+  - type: Item
+    heldPrefix: off
+    size: Normal
+  - type: DisarmMalus
+    malus: 0.225
+  - type: Appearance
+  - type: StaticPrice
+    price: 100
+
+- type: entity
+  name: Плеть
+  parent: BaseWhip
+  id: TheWhip
+  description: Жёсткая и довольно сильная плеть, подходит для коней (или для плохих мальчиков >:3).
+  components:
+  - type: Sprite
+    sprite: _Vice/Objects/Weapons/Melee/whip.rsi
+    state: icon
+  - type: MeleeWeapon
+    angle: 0
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Heat: 0.25
+
+- type: entity
+  name: Плеть с наконечниками
+  parent: BaseWhip
+  id: TippedWhip
+  description: Жёсткая, сильная плеть с металлическими наконечниками, не знаю, на чём (или на ком) вы будете её использовать, но мне его жаль.
+  components:
+  - type: Sprite
+    sprite: _Vice/Objects/Weapons/Melee/tippedwhip.rsi
+    state: icon
+  - type: MeleeWeapon
+    angle: 0
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Heat: 0.5
+        Blunt: 5
+        Slash: 5
+
+- type: entity
+  name: Кнут
+  parent: BaseWhip
+  id: LongWhip
+  description: Кнут, жёсткий и длинный, может обхватить кого-то, но слишком слабый, чтобы его удержать.
+  components:
+  - type: Sprite
+    sprite: _Vice/Objects/Weapons/Melee/longwhip.rsi
+    state: icon
+  - type: MeleeWeapon
+    angle: 0
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Heat: 0.5
+        Slash: 2

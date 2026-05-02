@@ -1,0 +1,35 @@
+- type: entity
+  parent: VendingMachineOld
+  id: VendingMachineDildoMat
+  name: ДилдоМат
+  description: "ГЛАДШТАЙН, — 14:26 а чо а ну.. Вендомат для самых элитных пользователей"
+  components:
+  - type: VendingMachine
+    pack: DildoeInventory
+    dispenseOnHitChance: 0.25
+    dispenseOnHitThreshold: 2
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    initialStockQuality: 0.33
+  - type: Sprite
+    sprite: _Vice/Structures/Machines/VendingMachines/dildomat.rsi
+    noRot: true
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Rotatable
+    rotateWhileAnchored: false
+    rotateWhilePulling: true
+  - type: PointLight
+    radius: 2
+    energy: 1.6
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+    color: "#fcb4d5" 
