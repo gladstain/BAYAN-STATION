@@ -1,16 +1,11 @@
-# SPDX-FileCopyrightText: 2021 SweptWasTaken <sweptwastaken@protonmail.com>
-# SPDX-FileCopyrightText: 2021 ike709 <ike709@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2021 ike709 <sparebytes@protonmail.com>
-# SPDX-FileCopyrightText: 2022 20kdc <asdd2808@gmail.com>
-# SPDX-FileCopyrightText: 2022 Fishfish458 <47410468+Fishfish458@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 T-Stalker <43253663+DogZeroX@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Todd <97599358+WTCWR68@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 WTCWR68 <97599358+WTCWR68@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 fishfish458 <fishfish458>
-# SPDX-FileCopyrightText: 2023 Whisper <121047731+QuietlyWhisper@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2022 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2022 ike709 <ike709@github.com>
+# SPDX-FileCopyrightText: 2022 ike709 <ike709@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2022 wrexbe <81056464+wrexbe@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
 # SPDX-FileCopyrightText: 2024 CMDR-JohnAlex <94056103+CMDR-JohnAlex@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 CMDR-Piboy314 <92357316+CMDR-Piboy314@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Doctor-Cpu <77215380+Doctor-Cpu@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 IProduceWidgets <107586145+IProduceWidgets@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 Kara <lunarautomaton6@gmail.com>
 # SPDX-FileCopyrightText: 2024 Kira Bridgeton <161087999+Verbalase@users.noreply.github.com>
@@ -114,13 +109,32 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-- type: soundCollection
-  id: LobbyMusic
-  files:
-    # VICE-STATION
-    - /Audio/_Vice/Lobby/Eulenlieder.ogg
-    - /Audio/_Vice/Lobby/GDE.ogg
-    - /Audio/_Vice/Lobby/Klaymen-Shuffle.ogg
-    - /Audio/_Vice/Lobby/STALUNSUIT.ogg
-    - /Audio/_Vice/Lobby/The-Neverhood-Theme.ogg
-    - /Audio/_Vice/Lobby/Train-Ride.ogg
+- files: ["Eulenlieder.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Converted from MP3 to OGG."
+  source: "https://youtu.be/RiRQOjfo780?si=byNg4I_bH2JQLa3Z"
+
+- files: ["Klaymen-Shuffle.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Converted from MP3 to OGG."
+  source: "https://www.youtube.com/watch?v=-AEFuGoSVJw&list=RDMM-AEFuGoSVJw&start_radio=1"
+
+- files: ["Train-Ride.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Converted from MP3 to OGG."
+  source: "https://youtu.be/Agw_EN7k1hA?si=mo0FxJoB_r1J135-"
+
+- files: ["The-Neverhood-Theme.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Converted from MP3 to OGG."
+  source: "https://youtu.be/9uDzsroHaJ8?si=5nMpP-yZT2rwUAMd"
+
+- files: ["STALUNSUIT.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Converted from MP3 to OGG."
+  source: "https://youtu.be/HWA4Ju7N61g?si=4lQjqmdTcyQat8ac"
+
+- files: ["GDE.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Converted from MP3 to OGG."
+  source: "https://youtu.be/-AEFuGoSVJw?si=AT-7Y5Y9zn6Vehj1"
