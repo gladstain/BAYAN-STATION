@@ -1,0 +1,48 @@
+#- type: gameMap
+#  id: Chibi
+#  mapName: 'Chibi Station'
+#  mapPath: /Maps/_Vice/Chibi.yml
+#  minPlayers: 5
+#  stations:
+#    Chibi:
+#      stationProto: StandardNanotrasenStation
+#      components:
+#        - type: StationNameSetup
+#          mapNameTemplate: '{0} Chibi {1}'
+#          nameGenerator:
+#            !type:NanotrasenNameGenerator
+#            prefixCreator: 'TG'
+#        - type: StationEmergencyShuttle
+#          emergencyShuttlePath: /Maps/Shuttles/emergency.yml
+#        - type: StationJobs
+#          availableJobs:
+            # command
+#            Captain: [ 1, 1 ]
+            # cargo
+#            SalvageSpecialist: [ 4, 4 ]
+#            CargoTechnician: [ 5, 6 ]
+            # engineering
+#            ChiefEngineer: [ 1, 1 ]
+#            AtmosphericTechnician: [ 2, 3 ]
+#            StationEngineer: [ 6, 7 ]
+#            TechnicalAssistant: [ 3, 3 ]
+            # medical
+#            MedicalDoctor: [ 4, 5 ]
+#            MedicalIntern: [ 3, 3 ]
+#            Chemist: [ 2, 2 ]
+            # science
+#            Scientist: [ 6, 7 ]
+#            ResearchAssistant: [ 3, 3 ]
+            # security
+#            HeadOfSecurity: [ 1, 1 ]
+#            Warden: [ 1, 1 ]
+#            SecurityOfficer: [ 6, 7 ]
+#            SecurityCadet: [ 3, 3 ]
+            # service
+#            Bartender: [ 1, 1 ]
+#            Botanist: [ 3, 4 ]
+#            Chef: [ 2, 3 ]
+#            Clown: [ 1, 1 ]
+#            Janitor: [ 1, 2 ]
+#            ServiceWorker: [ 3, 3 ]
+#            Passenger: [ -1, -1 ]
