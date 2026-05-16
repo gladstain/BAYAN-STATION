@@ -25679,9 +25679,7 @@ entities:
           - 1626
           - 1627
           - 1624
-          - invalid
           - 1623
-          - invalid
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
