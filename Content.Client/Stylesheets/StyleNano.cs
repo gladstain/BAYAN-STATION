@@ -255,7 +255,7 @@ namespace Content.Client.Stylesheets
 
         public static readonly Color PanelDark = Color.FromHex("#0B0C10"); // Глубокий космический черный
 
-        public static readonly Color NanoGold = Color.FromHex("#00E5FF"); // Неоновый циан вместо бежевого
+        public static readonly Color NanoGold = Color.FromHex("#00a8bb"); // Неоновый циан вместо бежевого
         public static readonly Color GoodGreenFore = Color.FromHex("#00FF66"); // Яркий sci-fi зеленый
         public static readonly Color ConcerningOrangeFore = Color.FromHex("#FFB000"); // Сигнальный оранжевый
         public static readonly Color DangerousRedFore = Color.FromHex("#FF003C"); // Неоновый красный
@@ -265,7 +265,7 @@ namespace Content.Client.Stylesheets
         public static readonly Color ButtonColorDefaultRed = Color.FromHex("#7A1423");
         public static readonly Color ButtonColorHovered = Color.FromHex("#1F2D4A"); // Подсветка при наведении
         public static readonly Color ButtonColorHoveredRed = Color.FromHex("#A31D31");
-        public static readonly Color ButtonColorPressed = Color.FromHex("#00E5FF"); // Вспышка циана при клике
+        public static readonly Color ButtonColorPressed = Color.FromHex("#00a8bb"); // Вспышка циана при клике
         public static readonly Color ButtonColorDisabled = Color.FromHex("#090C15");
 
         public static readonly Color ButtonColorCautionDefault = Color.FromHex("#ab3232");
@@ -278,7 +278,7 @@ namespace Content.Client.Stylesheets
         public static readonly Color ButtonColorGoodDisabled = Color.FromHex("#164420");
 
         //NavMap
-        public static readonly Color PointRed = Color.FromHex("#B02E26");
+        public static readonly Color PointRed = Color.FromHex("#5e1a16");
         public static readonly Color PointGreen = Color.FromHex("#38b026");
         public static readonly Color PointMagenta = Color.FromHex("#FF00FF");
 
@@ -295,7 +295,7 @@ namespace Content.Client.Stylesheets
         public static readonly Color ExamineButtonColorContextDisabled = Color.FromHex("#5A5A5A");
 
         // Fancy Tree elements
-        public static readonly Color FancyTreeEvenRowColor = Color.FromHex("#0D111A");
+        public static readonly Color FancyTreeEvenRowColor = Color.FromHex("#121825");
         public static readonly Color FancyTreeOddRowColor = FancyTreeEvenRowColor * new Color(0.8f, 0.8f, 0.8f);
         public static readonly Color FancyTreeSelectedRowColor = Color.FromHex("#1F2D4A");
 
